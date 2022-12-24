@@ -1,8 +1,8 @@
 #[derive(Debug)]
-struct Fighter {
-    name: String,
-    style: String,
-    nationality: String,
+pub struct Fighter {
+    pub name: String,
+    pub style: String,
+    pub nationality: String,
 }
 
 impl Fighter {
